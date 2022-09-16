@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+#inputText {
+  width: 20rem;
+  height: 2rem;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border: 2px solid orange;
+  border-radius: 10rem;
+  color: black;
+  text-transform: capitalize;
+}
+
+#addToDo {
+  height: 35px;
+  width: 100px;
+  margin-right: 2rem;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  background-color: green;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#addToDo:active {
+  background-color: blue;
+}
+
+#addToDo:hover {
+  background-color: rgb(8, 176, 8);
+  transition: all 1s;
+}
+
+#clearToDo {
+  height: 35px;
+  width: 100px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.p1 {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#clearToDo:active {
+  background-color: purple;
+}
+
+#clearToDo:hover {
+  background-color: rgb(186, 3, 3);
+  transition: all 1s;
+}
+
+.paragraf-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 35px;
+  color: black;
+  text-transform: capitalize;
+}
+
+.to-dos {
+  margin-top: 2rem;
+}
